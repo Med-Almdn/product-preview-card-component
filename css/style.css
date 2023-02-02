@@ -103,7 +103,7 @@ h1{
 
 
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
     /* for mobile */
     .container{
         display: block;
@@ -151,10 +151,9 @@ h1{
 
 
 
-@media (min-width: 950px) {
+@media (min-width: 400px) {
     /* for desktop */
     .container{
-        
         width: 550px;
     }
     img.mobile-img{
