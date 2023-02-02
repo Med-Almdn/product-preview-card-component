@@ -12,7 +12,7 @@ body{
 }
 /* End Global Rules */
 main{
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,33 +33,32 @@ main{
     border-radius: 8px 0px 0px 8px;
 }
 .box2{
-    width: 40%;
-    margin: 4% 5% ; 
+    width: 39%;
+    margin: 3.9% 5.3% ; 
 }
 .preview{
     font-family: 'Montserrat', sans-serif; 
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 14px;
+    letter-spacing: 4.5px;
+    font-size: 0.65rem;
     font-weight: 500;
     opacity: 50%;
-    padding: 0px;
 }
 h1{
     font-family: 'Fraunces', serif; 
-    font-weight: 400;
-    font-size: 37px;   
+    font-weight: 300;
+    font-size: 1.74rem;   
     line-height: 1;
-    margin: 8% 0;
+    margin: 9% 0;
 }
 .description{
     font-family: 'Montserrat', sans-serif; 
     opacity: 55%;
-    font-size: 16px;
+    font-size: 0.75rem;
     line-height: 1.67;
 }
 .new-price{
-    font-size: 37px;
+    font-size: 1.7rem;
     font-family: 'Fraunces', serif; 
     font-weight: 400;
     color: hsl(158, 36%, 37%);
@@ -68,14 +67,13 @@ h1{
     text-decoration: line-through;
     font-family: 'Montserrat', sans-serif; 
     opacity: 50%;
-    font-size: 15px;
-    margin-left: 22% ;
+    font-size: 0.7rem;
+    margin-left: 1.2rem ;
 }
 .price{
-    margin: 30px 0;
+    margin: 1.45rem 0;
     display: flex;
     align-items: center;
-    max-width: 39%;
 }
 .button{
     display: flex;
@@ -87,7 +85,7 @@ h1{
     text-decoration: none;
     text-align: center;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 16px;
+    font-size: 0.75rem;
     font-weight: 600;
     color: white;
     padding: 2px;
@@ -96,7 +94,7 @@ h1{
     display: inline-block;
 }
 .button svg{
-    margin-right: 14px;
+    margin-right: 10px;
     
 }
 .button:hover{
@@ -107,9 +105,12 @@ h1{
 
 @media (max-width: 376px) {
     /* for mobile */
+    main{
+        height: 100vh;
+    }
     .container{
         display: block;
-        width: 75%;
+        width: 300px;
     }
     img.desktop-img{
         display: none;
@@ -150,29 +151,14 @@ h1{
         margin-left: 20% ;
     }
 }
-@media (min-width: 376px) {
-    /* for desktop */
-    .container{
-        width: 90%;
-    }
-    img.mobile-img{
-        display: none;
-    }
-}
-@media (min-width: 700px) {
-    /* for desktop */
-    .container{
-        width: 60%;
-    }
-    img.mobile-img{
-        display: none;
-    }
-}
+
+
 
 @media (min-width: 950px) {
     /* for desktop */
     .container{
-        width: 43.5%;
+        height: 100vh;
+        width: 550px;
     }
     img.mobile-img{
         display: none;
